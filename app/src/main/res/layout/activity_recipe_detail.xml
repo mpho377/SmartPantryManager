@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/food_cream_bg"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDetailRecipeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recipe Title"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/food_green_primary"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Required Ingredients:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/food_text_muted"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDetailIngredientsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Loading ingredients..."
+            android:textSize="15sp"
+            android:textColor="@color/food_text_main"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preparation Steps:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/food_text_muted"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDetailInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step-by-step instructions go here..."
+            android:textSize="15sp"
+            android:textColor="@color/food_text_main"
+            android:lineSpacingExtra="6dp" />
+
+    </LinearLayout>
+</ScrollView>
