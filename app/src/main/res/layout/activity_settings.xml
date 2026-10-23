@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/food_cream_bg"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings &amp; Preferences"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/food_green_primary"
+        android:layout_marginBottom="28dp" />
+
+    <Switch
+        android:id="@+id/switchExpiryAlerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Expiring-Soon Alerts"
+        android:textSize="16sp"
+        android:textColor="@color/food_text_main"
+        android:layout_marginBottom="20dp" />
+
+    <Switch
+        android:id="@+id/switchMetricUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Metric Units (Grams/Ml)"
+        android:textSize="16sp"
+        android:textColor="@color/food_text_main"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnSaveSettings"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Save Preferences"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/food_green_primary"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
