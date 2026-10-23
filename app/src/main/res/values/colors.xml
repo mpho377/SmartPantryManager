@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="food_green_primary">#2D5A27</color>
+    <color name="food_green_dark">#1E3D1A</color>
+    <color name="food_cream_bg">#FAF7F2</color>
+    <color name="food_card_bg">#FFFFFF</color>
+    <color name="food_text_main">#1C251C</color>
+    <color name="food_text_muted">#6B726B</color>
+    <color name="food_terracotta">#D96B43</color>
+</resources>
